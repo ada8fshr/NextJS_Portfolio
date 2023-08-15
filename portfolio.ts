@@ -12,10 +12,13 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
-  description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+  name: 'Tapio Mikael',
+  title: "Hi there, here's Tapio",
+  description: `I'm one of top crazy developers in the world.
+  Languages: HTML5, CSS3, JavaScript, PHP, Python, C#, Java
+  Frontend: React.js / Next.js / Vue.js / Nuxt.js
+  Backend: Express.js / Nest.js / Laravel / Symfony / Django / Flask
+  `,
   resumeLink:
     'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
 };

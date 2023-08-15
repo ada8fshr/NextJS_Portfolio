@@ -1,9 +1,9 @@
 {
-  "name": "Portfolio_NextJS",
+  "name": "NextJS_Portfolio",
   "version": "1.0.0",
   "description": "Portfolio of Tapio written in NextJS.",
   "main": "index.js",
-  "repository": "https://github.com/BrightestWeb/Portfolio_NextJS.git",
+  "repository": "https://github.com/BrightestWeb/NextJS_Portfolio.git",
   "author": "Brightest Web",
   "license": "MIT",
   "scripts": {
