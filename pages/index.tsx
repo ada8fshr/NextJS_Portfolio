@@ -32,7 +32,7 @@ export default function Home({
       <Feedbacks />
       <Projects />
       {showContactUs ? <Contact /> : null}
-      <GithubProfileCard {...githubProfileData} />
+      {/* <GithubProfileCard {...githubProfileData} /> */}
     </div>
   );
 }
@@ -41,12 +41,12 @@ export default function Home({
 //   githubProfileData: PropTypes.object.isRequired,
 // };
 
-export async function getStaticProps() {
-  const githubProfileData: GithubUserType = await fetch(
-    `https://api.github.com/users/${openSource.githubUserName}`
-  ).then((res) => res.json());
+// export async function getStaticProps() {
+//   const githubProfileData: GithubUserType = await fetch(
+//     `https://api.github.com/users/${openSource.githubUserName}`
+//   ).then((res) => res.json());
 
-  return {
-    props: { githubProfileData },
-  };
-}
+//   return {
+//     props: { githubProfileData },
+//   };
+// }
